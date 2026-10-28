@@ -1,0 +1,4 @@
+#!/bin/sh
+chmod 0644 /Library/MobileSubstrate/DynamicLibraries/KSDoubleTap.plist 2>/dev/null
+/killall -9 com.kuaishou.ksa >/dev/null 2>&1
+exit 0

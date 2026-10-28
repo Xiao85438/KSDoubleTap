@@ -1,0 +1,9 @@
+Package: com.minis.ksdoubletap
+Name: KS 双击打开评论区
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: 快手播放页双击拦截点赞，改为打开评论区并取消爱心动画（仅播放页生效，带日志与野指针防护）
+Maintainer: minis
+Author: minis
+Section: Tweaks
+Depends: mobilesubstrate | ellekit, firmware (>= 15.0)
